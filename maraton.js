@@ -10,7 +10,7 @@ letrasDNI = ['A','B','C','D','P','X'];
 
 participantesIn = [];
 
-for (i = 0; i < 100000; i++ ) {
+for (i = 1000000; i < 2000000; i++ ) {
     participantesIn.push({
         _id: i,
         nombre: nombres[Math.floor(Math.random() * nombres.length)],
